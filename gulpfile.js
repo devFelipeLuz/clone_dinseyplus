@@ -2,6 +2,8 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const uglify = require('gulp-uglify');
 
+// comentário padrão
+
 function images() {
     return gulp.src('./src/images/**/*') // pega tudo dentro da pasta images
         .pipe(gulp.dest('./dist/images')); // copia sem alterar
